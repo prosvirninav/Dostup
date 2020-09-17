@@ -1,0 +1,14 @@
+* { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.container { max-width: 1440px; margin: auto; }
+
+img { max-width: 100%; }
+
+.navbar-container { background-color: #462446; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 0 26px; }
+
+.navbar-menu { width: 600px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; list-style-type: none; color: #ffffff; font-family: Roboto; font-style: normal; font-weight: normal; font-size: 24px; line-height: 28px; }
+
+.navbar-button__town { width: 306px; height: 49px; left: 1098px; top: 14px; background-color: rgba(119, 0, 255, 0.12); border-radius: 50px; font-style: normal; font-weight: normal; font-size: 24px; line-height: 28px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; color: #ffffff; border: none; outline: 0; }
+
+.navbar-button__link { color: #ffffff; }
+/*# sourceMappingURL=style.css.map */
