@@ -1,97 +1,204 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon.gif" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.gif" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dostup.ru</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="favicon.gif" type="image/x-icon" />
-  <link rel="shortcut icon" href="favicon.gif" type="image/x-icon" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <title>Dostup.ru</title>
-</head>
-
-<body>
-  <header class="navbar">
-    <div class="container">
-      <div class="navbar-container">
-        <div class="navbar-logo">
-          <a href="" class="navbar-logo__link">
-            <img src="img/logo.png" alt="Logo: доступ" class="logo" />
-          </a>
+  <body>
+    <header class="navbar">
+      <div class="container">
+        <div class="navbar-container">
+          <div class="navbar-logo">
+            <a href="" class="navbar-logo__link">
+              <img src="img/logo.png" alt="Logo: доступ" class="logo" />
+            </a>
+          </div>
+          <!-- /.navbar-logo -->
+          <ul class="navbar-menu">
+            <li class="navbar-menu__link">Тарифы</li>
+            <li class="navbar-menu__link">Пакетные предложения</li>
+            <li class="navbar-menu__link">О сайте</li>
+          </ul>
+          <div class="navbar-button">
+            <button class="navbar-button__town button-town">
+              Выберите город:
+              <a href="" class="navbar-button__link">Казань</a>
+            </button>
+          </div>
         </div>
-        <!-- /.navbar-logo -->
-        <ul class="navbar-menu">
-          <li class="navbar-menu__link">Тарифы</li>
-          <li class="navbar-menu__link">Пакетные предложения</li>
-          <li class="navbar-menu__link">О сайте</li>
-        </ul>
-        <div class="navbar-button">
-          <button class="navbar-button__town button-town">
-            Выберите город:
-            <a href="" class="navbar-button__link">Казань</a>
-          </button>
+        <!-- /.navbar-container -->
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="container">
+        <div class="main-container">
+          <div class="main-info">
+            <h1 class="main-title">
+              Нужен Интернет и ТВ<br />
+              на высоких скоростях?
+            </h1>
+            <h2 class="main-text">
+              Выберите оператора и оставьте заявку на подключение
+            </h2>
+          </div>
+          <form action="tariffs.html" class="main-tariff" target="_blank">
+            <button class="main-button">Тарифы</button>
+          </form>
+        </div>
+        <!-- /.main-container -->
+      </div>
+    </div>
+
+    <div class="option">
+      <div class="container">
+        <div class="option-container">
+          <div class="option-info">
+            <p class="option-selection option-info__selection">
+              Выберите тип пакета:
+            </p>
+            <p class="option-label option-info__label">
+              <label
+                ><input
+                  type="radio"
+                  name="g"
+                  class="option-input"
+                  checked
+                /><span></span> Интернет</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="g"
+                  class="option-input"
+                /><span></span> Интернет+ТВ</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="g"
+                  class="option-input"
+                /><span></span> Интернет+ТВ+мобильная связь</label
+              >
+            </p>
+          </div>
+        </div>
+        <!-- /.option-container -->
+      </div>
+    </div>
+
+    <div class="offer">
+      <div class="container">
+        <div class="offer-container"></div>
+        <!-- /.offer-container -->
+      </div>
+    </div>
+
+    <div class="slider">
+      <div class="slider-wrapper">
+        <div class="slider-item">
+          <div style="height: 250px; background: orange">1</div>
+        </div>
+        <div class="slider-item">
+          <div style="height: 250px; background: green">2</div>
+        </div>
+        <div class="slider-item">
+          <div style="height: 250px; background: violet">3</div>
+        </div>
+        <div class="slider-item">
+          <div style="height: 250px; background: coral">4</div>
+        </div>
+        <div class="slider-item">
+          <div style="height: 250px; background: brown">5</div>
+        </div>
+        <div class="slider-item">
+          <div style="height: 250px; background: orchid">6</div>
+        </div>
+        <div class="slider-item">
+          <div style="height: 250px; background: aqua">7</div>
         </div>
       </div>
-      <!-- /.navbar-container -->
+      <a class="slider-control slider-control__left" href="#" role="button"></a>
+      <a
+        class="slider-control slider-control__right slider-control__show"
+        href="#"
+        role="button"
+      ></a>
     </div>
-  </header>
 
-  <div class="main">
-    <div class="container">
-      <div class="main-container">
-        <div class="main-info">
-          <h1 class="main-title">
-            Нужен Интернет и ТВ<br> на высоких скоростях?
-          </h1>
-          <h2 class="main-text">
-            Выберите оператора и оставьте заявку на подключение
-          </h2>
+    <!-- Slider main container -->
+    <div class="slider">
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          ...
         </div>
-        <form action="tariffs.html" class="main-tariff" target="_blank">
-          <button class="main-button">Тарифы</button>
-        </form>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
-      <!-- /.main-container -->
+      <!-- /.slider -->
     </div>
-  </div>
 
-  <div class="option">
-    <div class="container">
-      <div class="option-container">
-        <div class="option-info">
-          <p class="option-selection option-info__selection">Выберите тип пакета:</p>
-          <p class="option-label option-info__label"><label><input type="radio" name="g" class="option-input"
-                checked><span></span>
-              Интернет</label>
-            <label><input type="radio" name="g" class="option-input"><span></span>
-              Интернет+ТВ</label>
-            <label><input type="radio" name="g" class="option-input"><span></span>
-              Интернет+ТВ+мобильная связь</label>
-          </p>
-        </div>
-      </div>
-      <!-- /.option-container -->
-    </div>
-  </div>
-
-  <div class="offer">
-    <div class="container">
-      <div class="offer-container">
-
-      </div>
-      <!-- /.offer-container -->
-    </div>
-  </div>
-
-  <!-- <div class="footer">
+    <!-- <div class="footer">
     <div class="container">
       <div class="footer-container">
         О сайте
       </div>
-      <!-- /.footer-container -->
-  </div>
+    </div>
   </div> -->
-</body>
 
+    <div class="tariff">
+      <div class="tariff-container">
+        <div class="tariff-info">
+          <div class="tariff-info__logo info-logo">
+            <img
+              src="img/Логотип_компании_«Ростелеком» 1.png"
+              alt="Logo: Логотип компании «Ростелеком»"
+            />
+          </div>
+          <a href="#" class="tariff-info__detail info-detail">
+            <span class="info-detail__text">подробное описание</span>
+            <img class="info-detail__img" src="img/info.svg" alt="Logo: info" />
+          </a>
+        </div>
+        <!-- /.tariff-info -->
+        <div class="basis">
+          <div class="basis-speed">
+            <span class="basis-speed__value">100</span
+            ><span class="basis-speed__nominal">Мб/сек</span>
+          </div>
+          <div class="basis-price">
+            <div class="basis-price__value">545</div>
+            <div class="basis-price__nominal">
+              <span class="basis-price__nominal-new">руб./мес.</span>
+              <span class="basis-price__nominal-old">650 руб./мес.</span>
+            </div>
+          </div>
+        </div>
+        <!-- /.basis -->
+      </div>
+      <!-- /.tariff-container -->
+    </div>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

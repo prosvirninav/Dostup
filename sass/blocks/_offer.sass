@@ -1,0 +1,66 @@
+.slider
+  position: relative
+  overflow: hidden
+    
+  &-wrapper 
+    display: flex
+    transition: transform 0.6s ease
+
+  &-item 
+    flex: 0 0 33.333333%
+    max-width: 33.333333%
+
+  &-control 
+    position: absolute
+    top: 50%
+    display: none
+    align-items: center
+    justify-content: center
+    width: 40px
+    color: #fff
+    text-align: center
+    opacity: 0.5
+    height: 50px
+    transform: translateY(-50%)
+    background: #fff
+    
+    
+    
+    &__show
+      display: flex
+
+    &:hover
+      color: #fff
+      text-decoration: none
+      outline: 0
+      opacity: .9
+    &:focus
+      color: #fff
+      text-decoration: none
+      outline: 0
+      opacity: .9
+    &__left 
+      left: 0
+      background-image: url(../../img/back-arrow.svg)
+      opacity: .9
+      &::before 
+
+    &__right 
+      right: 0
+      background-image: url(../../img/next-arrow.svg)
+      &::before
+        
+
+    &::before 
+      content: ''
+      display: inline-block
+      width: 20px
+      height: 20px
+      background: transparent no-repeat center center
+      background-size: 100% 100%
+
+
+  &-item>div 
+    line-height: 250px
+    font-size: 100px
+    text-align: center
