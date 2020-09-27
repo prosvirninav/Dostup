@@ -1,17 +1,19 @@
 .tariff
+  background-color: #EFEFEF
   padding: 14px
   &-container
     width: 437px
     height: 305px
-    padding: 10px 35px
+    padding: 20px 35px
     border-radius: 40px
     border: 1px solid #EB6B56
   &-info
     display: flex
     justify-content: space-between
-.info
+    margin-bottom: 20px
+.info 
   &-detail
-    width: 224px
+    width: 202px
     text-decoration: none
     color: #A5A2A2
     cursor: pointer
@@ -22,18 +24,19 @@
 .basis
   display: flex
   justify-content: space-between
+  margin-bottom: 25px
   &-speed
     display: flex
     flex-wrap: wrap
     padding-left: 20px
-    width: 135px
+    width: 130px
     height: 83px
     background-color: #DCDCDC
     border-radius: 20px
     color: #343434
     &__value
       font-style: normal
-      font-weight: 500 
+      font-weight: normal
       font-size: 48px
       line-height: 50px
     &__nominal
@@ -48,6 +51,7 @@
       font-weight: 500
       font-size: 64px
       line-height: 75px
+      margin-right: 5px
     &__nominal
       display: flex
       flex-direction: column
@@ -59,3 +63,32 @@
         text-decoration: line-through
         font-size: 18px
         line-height: 21px
+.buttons
+  display: flex
+  justify-content: space-between
+  color: #EFEFEF
+  &__label
+    width: 170px
+    height: 49px
+    padding: 14px 22px
+    background: #7700FF
+    border-radius: 150px
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 21px
+  &__request
+    width: 170px
+    height: 49px
+    margin: 0
+    font-style: normal
+    font-weight: normal
+    font-size: 22px
+    line-height: 25px
+    background: #EB6B56
+    border-radius: 150px
+    outline: 0
+    border: none
+    overflow: hidden
+    color: #EFEFEF
+ 
