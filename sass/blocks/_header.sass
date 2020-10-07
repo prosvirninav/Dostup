@@ -35,3 +35,26 @@
       outline: 0
     &__link
       color: #ffffff
+
+.dropdown
+  position: relative /* Относительное позиционирование */
+  &:checked
+
+  &__input
+    display: none
+  &-city
+    cursor: pointer /* Вид курсора */
+    border-bottom: 1px dashed blue
+    &__item
+      display: none
+      position: absolute /* Абсолютное позиционирование */
+      left: 0
+      top: 1.3em /* Положение меню */
+      margin: 0
+      padding: 5px /* Убираем отступы и поля */
+      list-style: none
+      background: #673AB7 /* Цвет фона */
+    &__item::checked
+      display: inline-block
+
+  // .dropdown a  color: #fff
