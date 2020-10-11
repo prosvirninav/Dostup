@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="favicon.gif" type="image/x-icon" />
+  <link rel="shortcut icon" href="favicon.gif" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+  <title>Dostup.ru</title>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="navbar-container">
+        <div class="navbar-logo">
+          <a href="" class="navbar-logo__link">
+            <img src="img/logo.png" alt="Logo: доступ" class="logo" />
+          </a>
+        </div>
+        <!-- /.navbar-logo -->
+        <ul class="navbar-menu">
+          <li class="navbar-menu__link">Тарифы</li>
+          <li class="navbar-menu__link">Пакетные предложения</li>
+          <li class="navbar-menu__link">О сайте</li>
+        </ul>
+        <div class="navbar-button">
+          <button class="navbar-button__town button-town">
+            Выберите город:
+            <a href="" class="navbar-button__link">Казань</a>
+          </button>
+        </div>
+      </div>
+      <!-- /.navbar-container -->
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <div class="main-container">
+        <div class="main-info">
+          <h1 class="main-title">
+            Нужен Интернет и ТВ<br />
+            на высоких скоростях?
+          </h1>
+          <h2 class="main-text">
+            Выберите оператора и оставьте заявку на подключение
+          </h2>
+        </div>
+        <form action="tariffs.html" class="main-tariff" target="_blank">
+          <button class="main-button">Тарифы</button>
+        </form>
+      </div>
+      <!-- /.main-container -->
+    </div>
+  </div>
+
+  <div class="option">
+    <div class="container">
+      <div class="option-container">
+        <div class="option-info">
+          <p class="option-selection option-info__selection">
+            Выберите тип пакета:
+          </p>
+          <p class="option-label option-info__label">
+            <label><input type="checkbox" name="g" class="option-input" checked /><span></span> Интернет</label>
+            <label><input type="checkbox" name="g" class="option-input" /><span></span> Интернет+ТВ</label>
+            <label><input type="checkbox" name="g" class="option-input" /><span></span> Интернет+ТВ+мобильная
+              связь</label>
+          </p>
+        </div>
+      </div>
+      <!-- /.option-container -->
+    </div>
+  </div>
+
+  <div class="offer">
+    <div class="container">
+      <div class="offer-container#1">
+        <div class="package">
+          <span class="package__line"></span>
+          <h4 class="package__text">Тарифы на Интернет</h4>
+          <span class="package__line"></span>
+        </div>
+        <div class="slider">
+          <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="tariff">
+                  <div class="tariff-container">
+                    <div class="tariff-info">
+                      <div class="tariff-info__logo info-logo">
+                        <img src="img/Логотип_компании_«Ростелеком» 1.png" alt="Logo: Логотип компании «Ростелеком»" />
+                      </div>
+                      <a data-toggle="modal" data-href="#modal-info" href="#" class="tariff-info__detail info-detail">
+                        <span class="info-detail__text">подробное описание</span>
+                        <img class="info-detail__img" src="img/info.svg" alt="Logo: info" />
+                      </a>
+                    </div>
+                    <!-- /.tariff-info -->
+                    <div class="basis">
+                      <div class="basis-speed">
+                        <span class="basis-speed__value">100</span><span class="basis-speed__nominal">Мб/сек</span>
+                      </div>
+                      <div class="basis-price">
+                        <div class="basis-price__value">545</div>
+                        <div class="basis-price__nominal">
+                          <span class="basis-price__nominal-new">руб./мес.</span>
+                          <span class="basis-price__nominal-old">650 руб./мес.</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.basis -->
+                    <div class="tariff-buttons buttons">
+                      <div class="buttons__label">
+                        <label for="cb1">Wi-Fi роутер</label><input type="radio" id="cb1" />
+                      </div>
+                      <div>
+                        <button data-toggle="modal" data-href="#modal-form" class="buttons__request">
+                          Подключить
+                        </button>
+                      </div>
+                    </div>
+                    <!-- /.tariff-buttons -->
+                  </div>
+                  <!-- /.tariff-container -->
+                </div>
+                <!-- /.tariff -->
+              </div>
+              <!-- /.swiper-slide -->
+              <div class="swiper-slide">
+                <div class="tariff">
+                  <div class="tariff-container">
+                    <div class="tariff-info">
+                      <div class="tariff-info__logo info-logo">
+                        <img src="img/MTS_Logo_rus_2r 1.png" alt="Logo: Логотип компании «МТС»" />
+                      </div>
+                      <a data-toggle="modal" data-href="#modal-info" href="#" class="tariff-info__detail info-detail">
+                        <span class="info-detail__text">подробное описание</span>
+                        <img class="info-detail__img" src="img/info.svg" alt="Logo: info" />
+                      </a>
+                    </div>
+                    <!-- /.tariff-info -->
+                    <div class="basis">
+                      <div class="basis-speed">
+                        <span class="basis-speed__value">100</span><span class="basis-speed__nominal">Мб/сек</span>
+                      </div>
+                      <div class="basis-price">
+                        <div class="basis-price__value">445</div>
+                        <div class="basis-price__nominal">
+                          <span class="basis-price__nominal-new">руб./мес.</span>
+                          <span class="basis-price__nominal-old">650 руб./мес.</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.basis -->
+                    <div class="tariff-buttons buttons">
+                      <div class="buttons__label">
+                        <label for="cb1">Wi-Fi роутер</label><input type="radio" id="cb1" />
+                      </div>
+                      <div>
+                        <button data-toggle="modal" data-href="#modal-form" class="buttons__request">Подключить</button>
+                      </div>
+                    </div>
+                    <!-- /.tariff-buttons -->
+                  </div>
+                  <!-- /.tariff-container -->
+                </div>
+                <!-- /.tariff -->
+              </div>
+              <div class="swiper-slide">
+                <div class="tariff">
+                  <div class="tariff-container">
+                    <div class="tariff-info">
+                      <div class="tariff-info__logo info-logo">
+                        <img class="info-logo__img" src=" img/Билайн_лого 1.png"
+                          alt="Logo: Логотип компании «Билайн»" />
+                      </div>
+                      <a data-toggle="modal" data-href="#modal-info" href="#" class="tariff-info__detail info-detail">
+                        <span class="info-detail__text">подробное описание</span>
+                        <img class="info-detail__img" src="img/info.svg" alt="Logo: info" />
+                      </a>
+                    </div>
+                    <!-- /.tariff-info -->
+                    <div class="basis">
+                      <div class="basis-speed">
+                        <span class="basis-speed__value">100</span><span class="basis-speed__nominal">Мб/сек</span>
+                      </div>
+                      <div class="basis-price">
+                        <div class="basis-price__value">545</div>
+                        <div class="basis-price__nominal">
+                          <span class="basis-price__nominal-new">руб./мес.</span>
+                          <span class="basis-price__nominal-old">650 руб./мес.</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.basis -->
+                    <div class="tariff-buttons buttons">
+                      <div class="buttons__label">
+                        <label for="cb1">Wi-Fi роутер</label><input type="radio" id="cb1" />
+                      </div>
+                      <div>
+                        <button data-toggle="modal" data-href="#modal-form" class="buttons__request">Подключить</button>
+                      </div>
+                    </div>
+                    <!-- /.tariff-buttons -->
+                  </div>
+                  <!-- /.tariff-container -->
+                </div>
+                <!-- /.tariff -->
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <!-- /.slider -->
+        </div>
+      </div>
+      <!-- /.offer-container#1 -->
+      <div class="offer-container#2">
+        <div class="package">
+          <span class="package__line"></span>
+          <h4 class="package__text">
+            Тарифы на пакет Интернет + телевидение
+          </h4>
+          <span class="package__line"></span>
+        </div>
+        <div class="slider">
+          <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="tariff">
+                  <div class="tariff-container">
+                    <div class="tariff-info">
+                      <div class="tariff-info__logo info-logo">
+                        <img src="img/Логотип_компании_«Ростелеком» 1.png" alt="Logo: Логотип компании «Ростелеком»" />
+                      </div>
+                      <a data-toggle="modal" data-href="#modal-info" href="#" class="tariff-info__detail info-detail">
+                        <span class="info-detail__text">подробное описание</span>
+                        <img class="info-detail__img" src="img/info.svg" alt="Logo: info" />
+                      </a>
+                    </div>
+                    <!-- /.tariff-info -->
+                    <div class="basis">
+                      <div class="basis-speed">
+                        <span class="basis-speed__value">100</span><span class="basis-speed__nominal">Мб/сек</span>
+                      </div>
+                      <div class="basis-price">
+                        <div class="basis-price__value">545</div>
+                        <div class="basis-price__nominal">
+                          <span class="basis-price__nominal-new">руб./мес.</span>
+                          <span class="basis-price__nominal-old">650 руб./мес.</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.basis -->
+                    <div class="tariff-buttons buttons">
+                      <div class="buttons__label">
+                        <label for="cb1">Wi-Fi роутер</label><input type="radio" id="cb1" />
+                      </div>
+                      <div>
+                        <button data-toggle="modal" data-href="#modal-form" class="buttons__request">Подключить</button>
+                      </div>
+                    </div>
+                    <!-- /.tariff-buttons -->
+                  </div>
+                  <!-- /.tariff-container -->
+                </div>
+                <!-- /.tariff -->
+              </div>
+              <!-- /.swiper-slide -->
+              <div class="swiper-slide">
+                <div class="tariff">
+                  <div class="tariff-container">
+                    <div class="tariff-info">
+                      <div class="tariff-info__logo info-logo">
+                        <img src="img/Логотип_компании_«Ростелеком» 1.png" alt="Logo: Логотип компании «Ростелеком»" />
+                      </div>
+                      <a data-toggle="modal" data-href="#modal-info" href="#" class="tariff-info__detail info-detail">
+                        <span class="info-detail__text">подробное описание</span>
+                        <img class="info-detail__img" src="img/info.svg" alt="Logo: info" />
+                      </a>
+                    </div>
+                    <!-- /.tariff-info -->
+                    <div class="basis">
+                      <div class="basis-speed">
+                        <span class="basis-speed__value">100</span><span class="basis-speed__nominal">Мб/сек</span>
+                      </div>
+                      <div class="basis-price">
+                        <div class="basis-price__value">545</div>
+                        <div class="basis-price__nominal">
+                          <span class="basis-price__nominal-new">руб./мес.</span>
+                          <span class="basis-price__nominal-old">650 руб./мес.</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.basis -->
+                    <div class="tariff-buttons buttons">
+                      <div class="buttons__label">
+                        <label for="cb1">Wi-Fi роутер</label><input type="radio" id="cb1" />
+                      </div>
+                      <div>
+                        <button data-toggle="modal" data-href="#modal-form" class="buttons__request">Подключить</button>
+                      </div>
+                    </div>
+                    <!-- /.tariff-buttons -->
+                  </div>
+                  <!-- /.tariff-container -->
+                </div>
+                <!-- /.tariff -->
+              </div>
+              <div class="swiper-slide">
+                <div class="tariff">
+                  <div class="tariff-container">
+                    <div class="tariff-info">
+                      <div class="tariff-info__logo info-logo">
+                        <img src="img/Логотип_компании_«Ростелеком» 1.png" alt="Logo: Логотип компании «Ростелеком»" />
+                      </div>
+                      <a data-toggle="modal" data-href="#modal-info" href="#" class="tariff-info__detail info-detail">
+                        <span class="info-detail__text">подробное описание</span>
+                        <img class="info-detail__img" src="img/info.svg" alt="Logo: info" />
+                      </a>
+                    </div>
+                    <!-- /.tariff-info -->
+                    <div class="basis">
+                      <div class="basis-speed">
+                        <span class="basis-speed__value">100</span><span class="basis-speed__nominal">Мб/сек</span>
+                      </div>
+                      <div class="basis-price">
+                        <div class="basis-price__value">545</div>
+                        <div class="basis-price__nominal">
+                          <span class="basis-price__nominal-new">руб./мес.</span>
+                          <span class="basis-price__nominal-old">650 руб./мес.</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.basis -->
+                    <div class="tariff-buttons buttons">
+                      <div class="buttons__label">
+                        <label for="cb1">Wi-Fi роутер</label><input type="radio" id="cb1" />
+                      </div>
+                      <div>
+                        <button data-toggle="modal" data-href="#modal-form" class="buttons__request">Подключить</button>
+                      </div>
+                    </div>
+                    <!-- /.tariff-buttons -->
+                  </div>
+                  <!-- /.tariff-container -->
+                </div>
+                <!-- /.tariff -->
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <!-- /.slider -->
+        </div>
+      </div>
+      <!-- /.offer-container#2 -->
+      <div class="offer-container#3">
+        <div class="package">
+          <span class="package__line"></span>
+          <h4 class="package__text">
+            Тарифы на пакет Интернет + телевидение + мобильная связь
+          </h4>
+          <span class="package__line"></span>
+        </div>
+        <div class="slider">
+          <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="tariff">
+                  <div class="tariff-container">
+                    <div class="tariff-info">
+                      <div class="tariff-info__logo info-logo">
+                        <img src="img/Логотип_компании_«Ростелеком» 1.png" alt="Logo: Логотип компании «Ростелеком»" />
+                      </div>
+                      <a data-toggle="modal" data-href="#modal-info" href="#" class="tariff-info__detail info-detail">
+                        <span class="info-detail__text">подробное описание</span>
+                        <img class="info-detail__img" src="img/info.svg" alt="Logo: info" />
+                      </a>
+                    </div>
+                    <!-- /.tariff-info -->
+                    <div class="basis">
+                      <div class="basis-speed">
+                        <span class="basis-speed__value">100</span><span class="basis-speed__nominal">Мб/сек</span>
+                      </div>
+                      <div class="basis-price">
+                        <div class="basis-price__value">545</div>
+                        <div class="basis-price__nominal">
+                          <span class="basis-price__nominal-new">руб./мес.</span>
+                          <span class="basis-price__nominal-old">650 руб./мес.</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.basis -->
+                    <div class="tariff-buttons buttons">
+                      <div class="buttons__label">
+                        <label for="cb1">Wi-Fi роутер</label><input type="radio" id="cb1" />
+                      </div>
+                      <div>
+                        <button data-toggle="modal" data-href="#modal-form" class="buttons__request">Подключить</button>
+                      </div>
+                    </div>
+                    <!-- /.tariff-buttons -->
+                  </div>
+                  <!-- /.tariff-container -->
+                </div>
+                <!-- /.tariff -->
+              </div>
+              <!-- /.swiper-slide -->
+              <div class="swiper-slide">
+                <div class="tariff">
+                  <div class="tariff-container">
+                    <div class="tariff-info">
+                      <div class="tariff-info__logo info-logo">
+                        <img src="img/Логотип_компании_«Ростелеком» 1.png" alt="Logo: Логотип компании «Ростелеком»" />
+                      </div>
+                      <a data-toggle="modal" data-href="#modal-info" href="#" class="tariff-info__detail info-detail">
+                        <span class="info-detail__text">подробное описание</span>
+                        <img class="info-detail__img" src="img/info.svg" alt="Logo: info" />
+                      </a>
+                    </div>
+                    <!-- /.tariff-info -->
+                    <div class="basis">
+                      <div class="basis-speed">
+                        <span class="basis-speed__value">100</span><span class="basis-speed__nominal">Мб/сек</span>
+                      </div>
+                      <div class="basis-price">
+                        <div class="basis-price__value">545</div>
+                        <div class="basis-price__nominal">
+                          <span class="basis-price__nominal-new">руб./мес.</span>
+                          <span class="basis-price__nominal-old">650 руб./мес.</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.basis -->
+                    <div class="tariff-buttons buttons">
+                      <div class="buttons__label">
+                        <label for="cb1">Wi-Fi роутер</label><input type="radio" id="cb1" />
+                      </div>
+                      <div>
+                        <button data-toggle="modal" data-href="#modal-form" class="buttons__request">Подключить</button>
+                      </div>
+                    </div>
+                    <!-- /.tariff-buttons -->
+                  </div>
+                  <!-- /.tariff-container -->
+                </div>
+                <!-- /.tariff -->
+              </div>
+              <div class="swiper-slide">
+                <div class="tariff">
+                  <div class="tariff-container">
+                    <div class="tariff-info">
+                      <div class="tariff-info__logo info-logo">
+                        <img src="img/Логотип_компании_«Ростелеком» 1.png" alt="Logo: Логотип компании «Ростелеком»" />
+                      </div>
+                      <a data-toggle="modal" data-href="#modal-info" href="#" class="tariff-info__detail info-detail">
+                        <span class="info-detail__text">подробное описание</span>
+                        <img class="info-detail__img" src="img/info.svg" alt="Logo: info" />
+                      </a>
+                    </div>
+                    <!-- /.tariff-info -->
+                    <div class="basis">
+                      <div class="basis-speed">
+                        <span class="basis-speed__value">100</span><span class="basis-speed__nominal">Мб/сек</span>
+                      </div>
+                      <div class="basis-price">
+                        <div class="basis-price__value">545</div>
+                        <div class="basis-price__nominal">
+                          <span class="basis-price__nominal-new">руб./мес.</span>
+                          <span class="basis-price__nominal-old">650 руб./мес.</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.basis -->
+                    <div class="tariff-buttons buttons">
+                      <div class="buttons__label">
+                        <label for="cb1">Wi-Fi роутер</label><input type="radio" id="cb1" />
+                      </div>
+                      <div>
+                        <button data-toggle="modal" data-href="#modal-form" class="buttons__request">Подключить</button>
+                      </div>
+                    </div>
+                    <!-- /.tariff-buttons -->
+                  </div>
+                  <!-- /.tariff-container -->
+                </div>
+                <!-- /.tariff -->
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <!-- /.slider -->
+        </div>
+      </div>
+      <!-- /.offer-container#3 -->
+    </div>
+    <!-- /.container -->
+  </div>
+
+  <section class="modal" id="modal-info">
+    <div class="modal__overlay"></div>
+    <!-- /.modal__overlay -->
+    <div class="modal__dialog">
+      <form action="#" class="close">
+        <button class="close__button">
+          <img src="img/close.svg" alt="Icon: close" />
+        </button>
+      </form>
+      <h3 class="modal__title modal__title--mb-3">Тарифный план: “Наименование тарифа”:</h3>
+      <form action="send.php" method="POST" class="modal__form form">
+        <ul class="form-list">
+          <li class="form-list__items">Описание тарифа:</li>
+          <li class="form-list__items">Стоимость подключения:</li>
+          <li class="form-list__items">Скорость:</li>
+          <li class="form-list__items">Кол-во каналов:</li>
+          <li class="form-list__items">Аренда роутера:</li>
+          <li class="form-list__items">Тип телевидения:</li>
+          <li class="form-list__items">Количество каналов:</li>
+          <li class="form-list__items">Стоимость аренды приставки:</li>
+          <li class="form-list__items">Акционная стоимость:</li>
+          <li class="form-list__items">Акционный период:</li>
+          <li class="form-list__items">Стандартная цена тарифа:</li>
+          <li class="form-list__items">Особенности тарифа:</li>
+        </ul>
+        <button class="button modal__button" type="submit">Отправить</button>
+      </form>
+    </div>
+    <!-- /.modal__dialog -->
+  </section>
+  <!-- /.modal -->
+
+  <section class="modal" id="modal-form">
+    <div class="modal__overlay"></div>
+    <!-- /.modal__overlay -->
+    <div class="modal__dialog">
+      <form action="#" class="close">
+        <button class="close__button">
+          <img src="img/close.svg" alt="Icon: close" />
+        </button>
+      </form>
+      <h3 class="modal__title modal__title--mb-3">Заполните форму для отправки заявки:</h3>
+      <form action="send.php" method="POST" class="modal__form form">
+        <div class="input-group">
+          <p class="text modal__text">ФИО полностью:</p>
+          <input type="text" class="input modal__input" placeholder="Иванов Иван Иванович*" name="name" required
+            minlength="2" />
+        </div>
+        <div class="input-group">
+          <p class="text modal__text">Контактный телефон:</p>
+          <input type="tel" class="input modal__input phone" placeholder="8-999-000-0000*" name="tel" required
+            minlength="16" />
+        </div>
+        <div class="input-group">
+          <p class="text modal__text">Адрес установки:</p>
+          <input type="text" class="input modal__input" placeholder="Город, улица, дом, квартира*" name="adress"
+            required />
+        </div>
+        <div class="input-group">
+          <p class="text modal__text">Ваш e-mail:</p>
+          <input type="text" class="input modal__input" placeholder="e-mail*" name="email" required />
+        </div>
+      </form>
+      <button class="button modal__button" type="submit">Отправить</button>
+    </div>
+    <!-- /.modal__dialog -->
+  </section>
+  <!-- /.modal -->
+
+  <div class="footer">
+    <div class="container">
+      <div class="footer-container">
+        <ul class="footer-info">
+          <li class="footer-info__item">О сайте</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
