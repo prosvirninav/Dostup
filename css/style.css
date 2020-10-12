@@ -24,17 +24,17 @@ img { max-width: 100%; }
 
 .dropdown-city__item::checked { display: inline-block; }
 
-.main-container { position: relative; height: 353px; width: 100%; padding: 102px 68px 0px 68px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; background-image: url(../img/main.jpg); overflow: hidden; }
+.main-container { position: relative; height: 353px; width: 100%; padding: 102px 68px 0px 68px; background-image: url(../img/main.jpg); background-repeat: none; background-size: cover; background-position: center; }
 
-.main-container::after { content: ""; position: absolute; width: 100%; height: 450px; top: 0; bottom: 0; right: 0; left: 0; background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 122, 223, 0.48)), to(rgba(255, 255, 255, 0.128))); background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%); z-index: 10; }
+.main-container::after { content: ""; position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; background-image: url(../img/main.jpg); background-color: rgba(0, 0, 0, 0.25); -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); }
 
-.main-info { position: relative; color: #ffffff; width: 847px; }
+.main-info { position: relative; color: #ffffff; width: 847px; z-index: 10; }
 
 .main-title { margin: 0; font-style: normal; font-weight: 500; font-size: 48px; line-height: 56px; }
 
 .main-text { font-style: normal; font-weight: normal; font-size: 32px; line-height: 37px; }
 
-.main-button { position: relative; height: 75px; width: 308px; margin-top: 116px; padding: 18px 94px; background-color: #EB6B56; color: rgba(0, 0, 0, 0.67); font-style: normal; font-weight: normal; font-size: 28px; line-height: 37px; border-radius: 70px; border: none; outline: 0; cursor: pointer; }
+.main-tariff__button { position: absolute; height: 75px; width: 308px; top: 85px; right: 50px; padding: 18px 94px; background-color: #EB6B56; color: rgba(0, 0, 0, 0.67); font-style: normal; font-weight: normal; font-size: 28px; line-height: 37px; border-radius: 70px; border: none; outline: 0; cursor: pointer; z-index: 10; }
 
 .option-container { width: 100%; height: 79px; background-color: #EB6B56; color: rgba(0, 0, 0, 0.67); padding: 23px; }
 
